@@ -14,6 +14,10 @@
         flex-direction: column !important;
     }
 
+    .product-full-detail .product-img img{
+        height: 35vh;
+    }
+
     .product-full-detail .product-img,
     .product-full-detail .product-detail h1,
     .product-full-detail .product-detail p{
