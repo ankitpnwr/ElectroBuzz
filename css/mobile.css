@@ -1,0 +1,33 @@
+@media(max-width: 768px){
+
+    .navbar li {
+        text-align: center;
+    }
+
+    .product-row-mobile,
+    .product-row-laptop,
+    .product-row-accessories{
+        flex-direction: column !important;
+        gap: 20px;
+    }
+    .product-full-detail{
+        flex-direction: column !important;
+    }
+
+    .product-full-detail .product-img,
+    .product-full-detail .product-detail h1,
+    .product-full-detail .product-detail p{
+        text-align: center;
+    }
+    
+}
+
+@media(max-height: 650px){
+    .l-heading{
+        font-size: 3rem;
+    }
+
+    .lead{
+        font-size: 1rem;
+    }
+}

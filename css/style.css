@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+}
+
+p{
+    margin: 0.75rem 0;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+/* utility classes */
+
+
+
+.text-center{
+    text-align: center;
+}
+
+.text-primary{
+    color: #93cb52 !important;
+}
+
+.l-heading{
+    font-size: 4rem;
+    line-height: 1.1;
+    margin-bottom: 0.75rem;
+}
+
+.m-heading{
+    font-size: 2rem;
+    line-height: 1.1;
+    margin-bottom: 0.75rem;
+}
+
+.lead{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+
+.btn-primary{
+    color: #fff;
+    background-color: #93cb52;
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color: #77b430;
+}
+
+
+.bg-light{
+    background-color: #f4f4f4;
+    color:#333;
+}
+
+.bg-dark{
+    background-color: #333;
+    color: #fff;
+}
+
+.bg-primary{
+    background-color: #93cb52 !important;
+    color: #fff;
+}
+
+/* navbar */
+
+.navbar a{
+    color: #fff;
+    padding: 0.75rem; 
+    margin: 0 0.25rem;
+}
+
+.navbar a:hover{
+    color: #fff;
+    background: #93cb52;
+    border-radius: 5px;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #93cb52;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* showcase */
+
+#showcase{
+    background: #333 url(../img/showcase.jpg) no-repeat 
+    center center/cover;
+    color:#fff;
+    height: 100vh;
+}
+
+#showcase .showcase-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    padding: 0 2rem;
+    /* overlay of back color over background image */
+    position: absolute;
+    top: 56px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+/*section:what*/
+.card img{
+    padding: 20px;
+    margin: auto;
+}
+
+
+/* Contact */
+
+#contact .contact-form .form-group{
+    margin: 0.75rem 0;
+}
+
+#contact .contact-form .form-group label{
+    display: block;
+}
+
+#contact .contact-form .form-group input,
+#contact .contact-form .form-group textarea{
+    width: 100%;
+    padding: .5rem;
+}
+
+/* Product details */
+
+.product-full-detail .product-img img{
+    height: 75vh;
+}
+
+.product-full-detail .product-detail p{
+    color: rgb(159, 4, 4);
+    font-weight: 550;
+    font-size: 1.2rem;
+}
